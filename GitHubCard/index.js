@@ -48,7 +48,8 @@ const followersArray = [
   'dustinmyers',
   'justsml',
   'luishrd',
-  'bigknell'
+  'bigknell',
+  'brityHemming'
 ];
 
 /*
