@@ -49,7 +49,7 @@ const followersArray = [
   'justsml',
   'luishrd',
   'bigknell',
-  'brityHemming'
+  
 ];
 
 /*
@@ -98,7 +98,9 @@ profilePic.src = card.avatar_url;
 name.textContent = card.name;
 userName.textContent = card.login;
 location.textContent = `Location: ${card.location}`;
-gitHubPage.textContent = `Profile: ${card.html_url}`;
+profile.textContent = `Profile: `
+gitHubPage.textContent = `${card.html_url}`;
+gitHubPage.href = 'card.html_url';
 followers.textContent = `Followers: ${card.followers}`;
 following.textContent = `Following: ${card.following}`;
 bio.textContent = `Bio: ${card.bio}`;
